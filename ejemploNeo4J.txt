@@ -8,27 +8,27 @@ MATCH (v:Venta) DETACH DELETE v;
 MATCH (t:IdTipoProducto) DETACH DELETE t;
 
 
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/Ivan-Cepeda/Motores-NoSQL/main/producto.csv?token=GHSAT0AAAAAACKHNY3JJD7HYCRMV4ASNMSCZKSA6FQ" AS row
+LOAD CSV WITH HEADERS FROM "https://github.com/Ivan-Cepeda/Motores-NoSQL/blob/main/producto.csv" AS row
 CREATE (n:Producto)
 SET n = row,
 n.IdProducto = toInteger(row.IdProducto),
 n.Producto = toString(row.Producto), 
 n.IdTipoProducto = toInteger(row.IdTipoProducto);
 
-LOAD CSV WITH HEADERS FROM "file:///tipo_producto.csv" AS row
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/Ivan-Cepeda/Motores-NoSQL/main/tipo_producto.csv" AS row
 CREATE (n:TipoProducto)
 SET n = row,
 n.IdTipoProducto = toInteger(row.IdTipoProducto),
 n.TipoProducto = toString(row.TipoProducto);
 
-LOAD CSV WITH HEADERS FROM "file:///cliente.csv" AS row
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/Ivan-Cepeda/Motores-NoSQL/main/cliente.csv" AS row
 CREATE (n:Cliente)
 SET n = row,
 n.IdCliente = toInteger(row.IdCliente),
 n.Nombre_y_Apellido = toString(row.Nombre_y_Apellido),
 n.Domicilio = toString(row.Domicilio);
 
-LOAD CSV WITH HEADERS FROM "file:///venta.csv" AS row
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/Ivan-Cepeda/Motores-NoSQL/main/venta.csv" AS row
 CREATE (n:Venta)
 SET n = row,
 n.IdVenta = toInteger(row.IdVenta),
