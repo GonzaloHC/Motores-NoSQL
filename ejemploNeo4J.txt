@@ -8,7 +8,7 @@ MATCH (v:Venta) DETACH DELETE v;
 MATCH (t:IdTipoProducto) DETACH DELETE t;
 
 
-LOAD CSV WITH HEADERS FROM "https://github.com/Ivan-Cepeda/Motores-NoSQL/blob/main/producto.csv" AS row
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/Ivan-Cepeda/Motores-NoSQL/main/producto.csv" AS row
 CREATE (n:Producto)
 SET n = row,
 n.IdProducto = toInteger(row.IdProducto),
