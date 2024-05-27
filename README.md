@@ -10,12 +10,13 @@ Revisemos algunos de los principales motores NoSQL, un muy breve paso por su his
 - [MongoDB](#mongodb)
   
 ## DynamoDB
+
 ### 📜Historia
 Amazon lanzó DynamoDB en 2012 como una base de datos NoSQL completamente administrada que se integra bien con otros servicios de AWS.
 ### 📚 Características
 DynamoDB es una base de datos NoSQL de clave-valor que ofrece escalabilidad, rendimiento y disponibilidad. Puede ser usada para migración de datos a la nube.
 ### 🔣 Lenguaje para consultas:
-DynamoDB utiliza una API de bajo nivel para realizar consultas.
+DynamoDB utiliza una API de bajo nivel para realizar consultas.["***Revisa la documentación-Para las posibilidades práctica***"](https://docs.aws.amazon.com/es_es/amazondynamodb/latest/developerguide/DynamoDBLocal.html)
 ### 🎯 Ejemplo de empresas que lo usan
 Disney Plus, usa Dinamo para almacenar las listas de series o películas del cliente. Zoom, Mercado libre, SAMSUNG, Netflix, Lyft, Tinder, Airbnb, Amazon.
 ### Herramientas Similares: Cloud Firestore Database, Redis, Microsoft Azure Cosmos DB.
@@ -23,6 +24,7 @@ Disney Plus, usa Dinamo para almacenar las listas de series o películas del cli
 - [Amazon DynamoDB Customers | AWS](https://aws.amazon.com/es/dynamodb/customers/?pg=dynamodb&sec=cs#Zoom)
 
 ## HBASE
+
 ### 📜Historia
 HBase se originó en 2007 como un proyecto de código abierto de Apache Hadoop.
 ### 📚 Características
@@ -39,6 +41,7 @@ Cassandra, Datastax, ScyllaDB, Google Cloud Bigtable, Accumulo, Elassandra.
 - [Companies using Apache Hbase and its marketshare](https://enlyft.com/tech/products/apache-hbase)
 
 ## Cassandra
+
 ### 📜Historia
 Facebook desarrolló Cassandra en 2008 y lo lanzó como un proyecto de código abierto en 2009 ⁷.
 ### 📚 Características
@@ -51,6 +54,7 @@ Netflix, Spotify, Instagram y Reddit son algunos de los clientes de Cassandra, q
 [Cassandra ¿qué es y cuándo usarla? - Refactorizando](https://refactorizando.com/cassandra-que-es-cuando-usarla/)
 
 ## Neo4j
+
 ### 📜 Historia
 Neo4j se lanzó en 2007 como una base de datos de gráficos de código abierto. 
 ### 📚 Características
@@ -58,7 +62,6 @@ Neo4j es una base de datos de gráficos que utiliza el modelo de datos de gráfi
 ### 🔣 Lenguaje para consultas: 
 Neo4j utiliza Cypher, un lenguaje de consulta de gráficos.
 [***Práctica Guiada***](https://github.com/Ivan-Cepeda/Neo4J-Carga-Modelado-Consulta)
-
 ### 🎯 Ejemplo de empresas usan Neo4j
 Walmart, eBay, NASA y LinkedIn son algunos de los clientes de Neo4j, que lo utilizan para modelar y explorar relaciones complejas entre datos.
 ### 📎 Enlace de interés
@@ -73,6 +76,7 @@ MongoDB se lanzó en 2009 como una base de datos de documentos de código abiert
 MongoDB es una base de datos de documentos que ofrece escalabilidad, flexibilidad y un modelo de consultas e indexación avanzado.
 ### 🔣 Lenguaje para consultas:
 MongoDB utiliza un lenguaje de consulta basado en JSON llamado MongoDB Query Language (MQL).
+["***Práctica Guiada***"](https://www.mongodb.com/docs/manual/tutorial/getting-started/)
 ### 🎯 Ejemplo de empresas usan MongoDB
 
 Google, Adobe, Microsoft y Verizon son algunos de los clientes de MongoDB, que lo utilizan para desarrollar aplicaciones web y móviles innovadoras y escalables.
