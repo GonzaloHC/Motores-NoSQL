@@ -48,6 +48,7 @@ Facebook desarrolló Cassandra en 2008 y lo lanzó como un proyecto de código a
 Cassandra es una base de datos NoSQL de columnas amplias que ofrece escalabilidad, disponibilidad y tolerancia a fallos. Sistema Pair to Pair. Se usa generalmente cuando la escritura de los datos supera la lectura.
 ### 🔣 Lenguaje para consultas:
 Cassandra: Cassandra utiliza Cassandra Query Language (CQL), que es similar a SQL.
+[***Práctica Guiada***](Cassandra-Datastax/Cassandra.md)
 ### 🎯 Ejemplo de empresas que usan Cassandra
 Netflix, Spotify, Instagram y Reddit son algunos de los clientes de Cassandra, que lo utilizan para gestionar grandes volúmenes de datos distribuidos globalmente.
 ### 📎 Enlace de interés
