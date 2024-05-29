@@ -6,7 +6,7 @@ Lo primero que hay que hacer es Ingresar a ASTRA-DATASTAX en el siguiente [LINK]
 
 Una vez dentro tendrás acceso la consola de ASTRA, puedes explorar un poco por tu cuenta si deseas, en esa pantalla, puedes ir a inicio rápido y hacer click en "*Crear Base de Datos*" como se pmuestra en la imagen siguiente.
 
-![Crear BD](/images/bienvenida-Astra.jpeg)
+![Crear BD](images/bienvenida-Astra.jpeg)
 
 Luego saltará una pantalla emergente, allí elegiremos la configuración de arranque de nuestra BD, el nombre, el espacio de trabajo en nuestro caso ya las Queries están definidas para el nombre "*training*", luego a partir de allí, se procederá a elegír el proveedor de nube sobre el cual correra nuestra BD. Es recomendable hacerlo en el proveedor que tenga la ubicación mas próxima a donde será consultada. Al finalizar hacemos click en Crear BD.
 
