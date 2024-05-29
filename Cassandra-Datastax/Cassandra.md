@@ -10,13 +10,13 @@ Una vez dentro tendrás acceso la consola de ASTRA, puedes explorar un poco por 
 
 Luego saltará una pantalla emergente, allí elegiremos la configuración de arranque de nuestra BD, el nombre, el espacio de trabajo en nuestro caso ya las Queries están definidas para el nombre "*training*", luego a partir de allí, se procederá a elegír el proveedor de nube sobre el cual correra nuestra BD. Es recomendable hacerlo en el proveedor que tenga la ubicación mas próxima a donde será consultada. Al finalizar hacemos click en Crear BD.
 
-![Configuración](/images/crear-bd-espacio-trabajo.jpeg)
+![Configuración](images/crear-bd-espacio-trabajo.jpeg)
 
 Después de crear nuestra base de datos, se procederá a inicializar la instancia en la que correrá nuestra BD, cuando el estatus sea "*Active*", podemos ingresar a la cónsola de CQL para comenzar a correr nuestras consultas.
 
-![Inicializado](/images/Inicializado-BD.jpeg)
+![Inicializado](images/Inicializado-BD.jpeg)
 
-![Consola-CQL](/images/consola-cql.jpeg)
+![Consola-CQL](images/consola-cql.jpeg)
 
 Para correr las consultas pre-definidas de la práctica, recomiendo usar el archivo [trining.cql](Cassandra-Datastax\training.cql).
 
